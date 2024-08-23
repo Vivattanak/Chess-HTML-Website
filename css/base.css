@@ -1,0 +1,286 @@
+
+html {
+    background-color: darkgray;
+    background-image: url("../media/backgroundimage.jpg");
+}
+
+.headertitle {
+    border:1px solid tomato;
+    background-color: navy;
+    color: white;
+    padding: 10px;   
+    margin: -10px;
+    border-radius: 20px 20px 0 0;
+
+}
+
+#mainmenu {
+    border:1px solid tomato;
+    background-color: navy;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: -10px;
+}
+
+#topmenus1{
+    color: #A8D87D;
+}
+#topmenus1:visited {
+    color: pink;
+}
+#topmenus2{
+    color: #A8D87D;
+}
+#topmenus2:visited {
+    color: pink;
+}
+#topmenus3{
+    color: #A8D87D;
+}
+#topmenus3:visited {
+    color: pink;
+}
+#topmenus4{
+    color: #A8D87D;
+}
+#topmenus4:visited {
+    color: pink;
+}
+#video1 {
+    float: left;
+    max-width: 50%;
+}
+.navbox {
+    background-color: #ffff;
+    border: 4px solid black;
+    padding: 20px 10px 30px 10px;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: 5%;
+
+}
+
+
+body {
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 500px;
+    padding: 0 0px 10px 10px;
+    margin: 20px auto;
+    border: 0px dotted gray;
+    box-shadow: 0 0 30px black;
+    border-radius: 20px;
+}
+
+header {
+    width: 99%;
+    border-radius:20px 20px 0px 0px;
+
+}
+.main {
+    border-radius:20px 20px 0px 0px;
+}
+
+
+#video1 {
+    width: 560px;
+    height: 315px;
+
+}
+#imgpage2-2 {
+    max-width: 80%;
+}
+#videopage2 {
+    max-width: 80%;
+}
+#toggle {
+    display: none;
+}
+
+#toggle + label {
+    color: blue; 
+    cursor: pointer;
+}
+
+#hiddenText {
+    display: none; 
+}
+
+#toggle:checked + label + #hiddenText {
+    display: block; 
+}
+
+
+#chesspuzzle {
+    display: block;
+    margin: 0 20%;
+    max-width: 80%;
+}
+.puzzleinput {
+    display: block;
+    margin: 0 20%;
+    max-width: 80%;
+}
+
+#NewsPic1 {
+    display: block;
+    margin: 0 10%;
+    margin-right: 20%;
+    max-width: 60%;
+}
+
+.ranking-table {
+    border-collapse: collapse;
+    font-size: 110%;
+    max-width: 60%;
+    margin: 0 20%;
+
+}
+
+.ranking-table thead tr{
+background-color: navy;
+color: white;
+text-align: center;
+font-weight: bold;
+max-width: 80%;
+}
+
+.ranking-table td {
+    padding: 12px 20px
+}
+
+.ranking-table tbody tr {
+    border-bottom: 1px solid black;
+}
+
+.ranking-table tbody tr:nth-of-type(even) {
+    background-color: lightgrey;
+}
+
+.ranking-table tbody tr:last-of-type {
+    border-bottom: 2px solid navy;
+}
+
+.mainlabel {
+    font-weight: bold; /*or strong*/
+}
+.form h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.form .input-part {
+    height: 200px;
+}
+
+/* Styles for small screens */
+@media only screen and (max-width: 414px) {
+
+    #boardpatternspic {
+        width: 430px;
+    }
+    .navbox {
+        background-color: #ffff;
+        border: 4px solid black;
+        padding: 20px 10px 30px 10px;
+        margin-left: 60%;
+        margin-right: 10%;
+        margin-top: 5%;
+    
+    }
+}
+
+/* Styles for medium screens (768px - 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #boardpatternspic {
+        width: 530px;
+    }
+    .navbox {
+        background-color: #ffff;
+        border: 4px solid black;
+        padding: 20px 10px 30px 20px;
+        margin-left: 60%;
+        margin-right: 10%;
+        margin-top: 5%;
+    
+    }
+}
+
+/* Styles for visually impaired users */
+@media screen and (prefers-contrast: more) {
+    body {
+        font-size: 24px; 
+        color: black; 
+        background-color: white; 
+    }
+    html {
+        background-color: darkgray;
+    }
+    
+    .headertitle {
+        border:1px solid tomato;
+        background-color: black;
+        color: white;
+        padding: 10px;   
+        margin: -10px;
+        border-radius: 20px 20px 0 0;
+    
+    }
+    
+    #mainmenu {
+        border:1px solid tomato;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        margin: -10px;
+    }
+    
+    #topmenus1{
+        color: white;
+    }
+    #topmenus1:visited {
+        color: pink;
+    }
+    #topmenus2{
+        color: white;
+    }
+    #topmenus2:visited {
+        color: pink;
+    }
+    #topmenus3{
+        color: white;
+    }
+    #topmenus3:visited {
+        color: pink;
+    }
+    #topmenus4{
+        color: white;
+    }
+    #topmenus4:visited {
+        color: pink;
+    }
+}
+
+/*The last screen size is the normal one, above*/
+
+/* For smaller text */
+@media print {
+    body {
+        font-size: 80%; 
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+}
+
+/* For larger text */
+@media print {
+    body {
+        font-size: 100%; 
+        font-family: 'Times New Roman', Times, serif; 
+    }
+}
+

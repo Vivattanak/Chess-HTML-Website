@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chess</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+</head>
+    <body>
+        <header>
+            <article>
+                <h1 class="headertitle">Introduction to Chess</h1>
+                <nav id="mainmenu" class="mainmenu">
+                    <a href="index.html" id="topmenus1">Introduction</a>
+                    <b>Advanced Strategies</b>
+                    <a href="Page3.html" id="topmenus3">News &amp; Ranking</a>
+                    <a href="CONTACT.html" id="topmenus4">Contact Us</a>
+                </nav>
+            </article>
+        </header>
+        <br>
+
+        <header>
+            <p>
+                Now that you have learn about the basics of chess, it is time to move into the more advanced topics such as: (click the words for quick navigation) 
+            </p>
+            <nav id="pagemenu">
+                <ol>
+                    <li><a href="#notation">Chess notation </a></li>
+                    <li><a href="#gamestages">Game Stages</a></li>
+                    <li><a href="#advtactics">Advance tactics and strategies</a></li>
+                </ol>
+            </nav>
+        </header>
+
+        <header>
+            <aside>
+                <h2 id="notation">Chess notation</h2>
+                <p>
+                    <strong>Chess notation</strong> is the standard method for recording chess moves, detailing the move number, the piece moved, and its destination square.
+                    Each square on the board is denoted by a letter and a number representing the file and rank, respectively. Pieces are abbreviated with
+                    capital letters: <b>"K"</b> for king, <b>"Q"</b> for queen, <b>"R"</b> for rook, <b>"B"</b> for bishop, and <b>"N"</b> for knight. Pawns are not abbreviated. Captures are
+                    indicated by <b>"x"</b>, while short castling is noted as <b>0-0</b> and long castling as <b>0-0-0</b>. Notations like <b>1-0</b> signify White's victory, <b>0-1</b> denotes
+                    Black's win, and <b>1/2-1/2</b> indicates a draw.
+                </p>
+            </aside>
+            <figure>
+                <img src="media/chessnotation.jpg" alt="Photo to show the chess notation">
+                <figcaption>Chess notation</figcaption>
+            </figure>
+        </header>
+
+
+        <p id="gamestages">
+            The game of chess is usually divided into 3 stages which is:
+        </p>
+        <p>
+            <b>The opening:</b> This represents the beginning of the game, in which players move pieces according to theory(moves that have already been played
+            before)that aim to gain an advantage, by getting better positioning, tactic, space, etc. Some examples of chess opening include things like
+            the Ruy Lopez, Italian Game, Gambits.
+        </p>
+        <p>
+            <b>The middle game:</b> This is the part of the game where players finish setting up their defenses and attacks and now trying to
+            create chances. Through things like tactics, captures, or threat players will be able to gain an advantage.
+        </p>
+        <p>
+            <b>The end game:</b> The final part of the game, where pieces have been traded and captured. In this part, it usually requires a lot
+            of precision, as one wrong move leads you to lose the game.
+
+        </p>
+
+        <h2 id="advtactics">Advance tactics and strategies</h2>
+        <p>
+            Now that you understand the game on a deeper level, let&lsquo;s talk about some basic tactics which can help you gain an advantage.
+        </p>
+        <ul>
+            <li>
+                <b>The Pin:</b> Pins happen when a piece attacks an opponent's piece aligned with another more valuable piece or critical square. The
+                attacked piece is then <b>"pinned"</b> to the board since moving it would cause the attacked player to suffer a significant loss.
+            </li>
+            <li>
+                <b>Skewers:</b> Skewers are like backward pins. They happen when a piece attacks a more valuable piece aligned with a weaker piece. The more valuable
+                piece has to move and allow the attacker to capture the piece behind it.
+            </li>
+            <li>
+                <b>The Fork:</b> Forks happen when a single piece attacks two or more pieces simultaneously with no way for at least one of them to
+                escape. Knights are especially useful for forking because of their unique movements.
+            </li>
+            <li>
+                <b>Discovered Attacks:</b>  A discovered attack happens when a player moves a piece out of another piece's way to create an attack. If
+                the uncovered piece attacks the enemy king, it is a discovered check.
+            </li>
+        </ul>
+        <figure>
+            <img src="media/advancetactics.jpg" alt="Photo to show chess advanced tactics" id="imgpage2-2">
+            <figcaption>(These pictures show <i>in-order</i> an example of each tactic explained.)</figcaption>
+        </figure>
+        <p>
+            Here, I have only explained the easiest, and most basic tactics. If you want a deeper and more comprehensive knowledge of tactics, I highly
+            recommend you to watch this video.
+        </p>
+        <video controls poster="media/chesstactics.jpg" id="videopage2">
+            <source src="media/videoplayback.mp4" type="video/mp4">
+            <p>Your browser does not support HTML5 video</p>
+            <p><a href="media/videoplayback.mp4">You can download the video ("Chess Tactics") in mp4 format.</a></p>
+        </video>
+        <h2 id="puzzle">Puzzle: </h2>
+        <p>
+            Now that you have learnt about chess notation and tactics, here have a try at this puzzle. <b>PS:</b> Click the image for more puzzles;
+        </p>
+        <input type="checkbox" id="toggle">
+        <label for="toggle">Click this for answer:</label>
+        <p id="hiddenText">Bxc4</p>
+
+        <img src="media/Chesspuzzle.JPG" alt="Chess puzzle javascript" id="chesspuzzle">
+        <br>
+        <div class="puzzleinput">
+        <label for="puzzleinput">Enter a specific input:</label>
+        <input type="text" id="puzzleinput">
+        <button onclick="checkInput()">Check</button>
+        <p id="result"></p>
+
+        <script src="javascript/script.js"></script>
+        </div>
+
+    <footer>
+        <h3><b>Source: <a href="https://www.chess.com/terms/chess">Chess.com</a></b></h3>
+        <p>If you have any questions or comments please contact us at the contact us page.</p>
+    </footer>
+</body>
+</html>

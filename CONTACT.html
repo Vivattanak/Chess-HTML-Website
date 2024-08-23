@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chess</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+</head>
+    <body>
+        <header>
+            <article>
+                <h1 class="headertitle">Introduction to Chess</h1>
+                <nav id="mainmenu" class="mainmenu">
+                    <a href="index.html" id="topmenus1">Introduction</a>
+                    <a href="Page2.html" id="topmenus2">Advanced Strategies</a>
+                    <a href="Page3.html" id="topmenus3">News &amp; Ranking</a>
+                    <b>Contact Us</b>
+                </nav>
+            </article>
+        </header>
+        <br>
+        
+    <p>
+        If you have any questions or comments about this website, please fill in this form, your feedback is greatly appreciated.
+    </p>
+
+    <div class="form">
+    <h2>Form:</h2>
+    <form action="mailto:NeptunCode@gmail.com" method="post" enctype="text/plain">
+            <!--CSS change the background to grey-->
+        <fieldset class="input-part">
+            <legend>Rating</legend>
+            <label for="email" class="mainlabel">E-mail address</label><br>
+            <input type="email" name="email" id="email" size="50"><br>
+            <label for="name" class="mainlabel">Name</label><br>
+            <input type="text" name="name" id="name" size="50"><br>
+            <p>
+                <label class="mainlabel">Site rating</label><br>
+                <input type="radio" name="rating" id="v1" value="1">
+                <label for="v1">1</label>
+                <input type="radio" name="rating" id="v2" value="2">
+                <label for="v2">2</label>
+                <input type="radio" name="rating" id="v3" value="3">
+                <label for="v3">3</label>
+                <input type="radio" name="rating" id="v4" value="4">
+                <label for="v4">4</label>
+                <input type="radio" name="rating" id="v5" value="5">
+                <label for="v5">5</label>
+            </p>
+        </fieldset>
+            <br>
+
+            <fieldset class="comment-part">
+                <legend>Comment</legend>
+                <label class="mainlabel">Type of Comment</label><br>
+                <p>
+                    <input type="radio" name="commenttype" id="C-v1" value="c1">
+                    <label for="C-v1">Feedback</label>
+                    <input type="radio" name="commenttype" id="C-v2" value="c2">
+                    <label for="C-v2">Criticism</label>
+                    <input type="radio" name="commenttype" id="C-v3" value="c3">
+                    <label for="C-v3">Comment</label>
+                    <input type="radio" name="commenttype" id="C-v4" value="c4">
+                    <label for="C-v4">Other</label>
+                </p>
+                <label for="comment" class="mainlabel">Comment</label><br>
+                <textarea cols="50" rows="10" name="comment" id="comment"
+                          placeholder="Write your comment here: "></textarea>
+            </fieldset>
+            <br>
+
+            <fieldset class="submit-part">
+                <legend>Send</legend>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset"> <br>
+                <input type="checkbox" name="newsletter" id="newsletter" value="yes">
+                <label for="newsletter">I'd like to subscribe to a newsletter</label>
+            </fieldset>
+    </form>
+    </div>
+    <br>
+
+    <footer>
+        <fieldset>
+            <p>
+                Thank you for your input, you comment &amp; feedback will be greatly appreciated.
+            </p>
+        </fieldset>
+    </footer>
+
+</body>
+</html>

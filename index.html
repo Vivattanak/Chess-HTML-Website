@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chess</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+</head>
+    <body>
+        <header>
+            <article>
+                <h1 class="headertitle">Introduction to Chess</h1>
+                <nav id="mainmenu" class="mainmenu">
+                    <b>Introduction</b>
+                    <a href="Page2.html" id="topmenus2">Advanced Strategies</a>
+                    <a href="Page3.html" id="topmenus3">News &amp; Ranking</a>
+                    <a href="CONTACT.html" id="topmenus4">Contact Us</a>
+                </nav>
+            </article>
+        </header>
+        <br>
+
+        <main id="content">
+            <article class="main">
+                <fieldset>
+                    <h2 id="intro">Introduction</h2>
+                    <p>
+                        Chess is one of the oldest and universally beloved strategy games played by millions worldwide.
+                        It's a two-player board game simulating a war between kingdoms, where opponents maneuver pieces on a checkerboard
+                        with the ultimate goal of checkmating the opponent's king. It is a game of foresight, planning, and tactical skill as
+                        players aim to outmaneuver their opponent, where if you lose you can only blame yourself . How to play:
+                    </p>
+                </fieldset>
+                <p>
+                    The rules of the game of chess is complex, I highly recommend that you watch this video if you want to learn how to play:
+                </p>
+                <iframe id="video1" src="https://www.youtube.com/embed/ej_fnsdsksA?si=ITQukWDmlCHSnDyv"
+                        title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                    picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <aside class="navbox">
+                    <p>
+                        <em>
+                            Quick navigation: 
+                        </em>
+                    </p>
+                    <nav id="pagemenu">
+                        <ol>
+                            <li><a href="#intro">Introduction </a></li>
+                            <li><a href="#boardpieces">Board &amp; Pieces</a></li>
+                            <li><a href="#piecemovement">Piece Movements</a></li>
+                        </ol>
+                    </nav>
+                </aside>
+                <br><br><br><br><br><br><br><br>
+                <p id="boardpieces">
+                    But if you preferred to read, here is a short explanation of the game:
+                </p>
+                <p>
+                    Each player starts with 16 pieces, including pawns, knights, bishops, rooks, a queen, and a king. At the beginning of the game,
+                    each player either has the black pieces or the white pieces, the player with the white pieces goes first.
+                </p>
+                <figure>
+                    <a href="media/white&blackkingOriginal.jpg">
+                    <img src="media/white&blackking.jpg" alt="Photo to show the 2 types of pieces">
+                    </a>
+                    <figcaption>White and Black Kings</figcaption>
+                </figure>
+                <p>
+                    As for the board, it is a 64 square, 8x8 checkerboard, with light squares and dark squares.
+                </p>
+                <figure>
+                    <img src="media/boardPatterns.jpg" alt="Photo to show the board" id="boardpatternspic">
+                    <figcaption>The board structure</figcaption>
+                </figure>
+                <p>
+                    Here is a general guide on how to set up the board and pieces before the game begins.
+                </p>
+                <figure>
+                    <img src="media/boardSetUp.jpg" alt="Photo to show how to set up the board">
+                    <figcaption>The board set up</figcaption>
+                </figure>
+                <p>
+                    After this you need to learn how each chess piece moves, here is a basic explanation.
+                </p>
+            </article>
+            <article id="piecemovement">
+                <ol>
+                    <li>
+                        <h3>Pawn</h3>
+                        <ul>
+                            <li>Moves forward one square, but on its first move, it has the option to move two squares forward.</li>
+                            <li>Captures diagonally forward.</li>
+                            <li>Can be promoted to any other piece (except another pawn) upon reaching the opponent's back rank (final square).</li>
+                            <li>
+                                <b>Special Rule:</b> En passant, is a move where if the opponent’s pawn moves 2 squares forward landing next to your pawn,
+                                you can directly capture it as if it only moves one square.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Knight</h3>
+                        <ul>
+                            <li>Moves in an L-shape: two squares in one direction (horizontally or vertically) and then one square perpendicular to that direction.</li>
+                            <li>Can jump over other pieces.</li>
+                            <li>Captures by landing on the square occupied by an opponent's piece.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Bishop</h3>
+                        <ul>
+                            <li>Moves diagonally any number of squares. </li>
+                            <li>Cannot jump over other pieces. </li>
+                            <li>Captures by landing on the square occupied by an opponent's piece.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Rook</h3>
+                        <ul>
+                            <li>Moves horizontally or vertically any number of squares. </li>
+                            <li>Cannot jump over other pieces. </li>
+                            <li>Captures by landing on the square occupied by an opponent's piece. </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Queen</h3>
+                        <ul>
+                            <li>Combines the moves of a rook and a bishop: can move horizontally, vertically, or diagonally any number of squares. </li>
+                            <li>Cannot jump over other pieces. </li>
+                            <li>Captures by landing on the square occupied by an opponent's piece. </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>King</h3>
+                        <ul>
+                            <li>Moves one square in any direction: horizontally, vertically, or diagonally. </li>
+                            <li>Cannot move into or remain in check (threatened by the opponent's pieces). </li>
+                            <li>Captures by landing on the square occupied by an opponent's piece.</li>
+                            <li>
+                                <b>Special rule:</b> There is a special move, if your king hasn’t moved yet you can team up with the rook and move directly
+                                2 squares either to the left or right, and you can move your rook directly next to the king in the opposite direction
+                                of where the king moves.
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+                <p>
+                    You can only move one piece a turn, after which it would switch to your opponent’s turn.
+                </p>
+                <p>
+                    When one of your pieces is attacking the opponent’s king, that is called a <b>“check”</b>. If you are in check, you need to protect
+                    your king at all costs, whether by moving it, taking the piece that threatens your king, or blocking. However, if the attack
+                    is unstoppable, and the opponent’s king is guaranteed to be taken the following turn, that is called a <b>“checkmate”</b    >, and you would
+                    directly win.
+                </p>
+                <p>
+                    That is basically the basics and bare rules, so go and play chess!
+                </p>
+            </article>
+            <footer>
+                <h3><b>Source: <a href="https://www.chess.com/terms/chess">Chess.com</a></b></h3>
+                <p>If you have any questions or comments please contact us at the contact us page.</p>
+            </footer>
+        </main>
+    </body>
+</html>
